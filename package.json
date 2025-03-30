@@ -1,0 +1,66 @@
+{
+  "name": "n8n-nodes-acceleate",
+  "version": "0.1.0",
+  "description": "n8n community node package for interacting with the Acceleate.com API and providing AI tools.",
+  "keywords": [
+    "n8n-community-node-package",
+    "acceleate",
+    "ai",
+    "tool",
+    "langchain"
+  ],
+  "license": "MIT",
+  "homepage": "https://acceleate.com",
+  "author": {
+    "name": "Acceleate Team",
+    "email": "contact@acceleate.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acceleate/n8n-nodes-acceleate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acceleate/n8n-nodes-acceleate/issues"
+  },
+  "engines": {
+    "node": ">=18.10"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && gulp build",
+    "dev": "tsc --watch",
+    "format": "prettier --write nodes credentials",
+    "lint": "eslint nodes credentials package.json",
+    "lint:fix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/BraveSearchApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/BraveSearch/BraveSearch.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "fs-extra": "^11.3.0",
+    "gulp": "^5.0.0",
+    "n8n-workflow": "^1.82.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.16",
+    "@langchain/community": "^0.2.18"
+  }
+}
