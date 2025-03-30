@@ -32,7 +32,7 @@ After installing the node, you can use it like any other node. n8n displays the 
 
 ## Operations
 
-![Brave Search N8N Tool Node](./images/brave-search-node-ui.png) <!-- Placeholder - Add a screenshot of the node UI -->
+![Brave Search N8N Tool Node UI](./images/brave-search-node-ui.png)
 
 *   **Web Search Tool (Brave):**
     *   Provides a `DynamicStructuredTool` for use within n8n's AI Agent and Chain nodes.
