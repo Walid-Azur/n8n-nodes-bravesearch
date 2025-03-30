@@ -1,7 +1,6 @@
 # n8n-nodes-bravesearch
 
-<!-- You can add a hero image here if you have one -->
-<!-- ![Brave Search N8N Hero](./images/brave-search-hero.png) -->
+<img src="./icons/braveSearch.svg" alt="Brave Search N8N Tool Icon" width="36"/>
 
 This is an n8n community node package providing tools for interacting with the [Brave Search API](https://api.search.brave.com/).
 
