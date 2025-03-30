@@ -24,7 +24,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 1.  Go to **Settings > Community Nodes**.
 2.  Select **Install**.
-3.  Enter `n8n-nodes-bravesearch` (or the specific package name if published differently, e.g., `@acceleate/n8n-nodes-bravesearch`) in the **Enter package name** field.
+3.  Enter `n8n-nodes-bravesearch-advanced` in the **Enter package name** field.
 4.  Agree to the risks of using community nodes: select **I understand the risks, and I want to proceed**.
 5.  Select **Install**.
 

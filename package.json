@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-bravesearch-advanced",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n community node package providing a LangChain tool for the Brave Search API.",
   "keywords": [
     "n8n-community-node-package",
