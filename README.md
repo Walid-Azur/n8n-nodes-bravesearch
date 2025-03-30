@@ -1,6 +1,6 @@
-# n8n-nodes-bravesearch
+# n8n-nodes-bravesearch-advanced
 
-<img src="./icons/braveSearch.svg" alt="Brave Search N8N Tool Icon" width="36"/>
+<img src="./icons/braveSearch.png" alt="Brave Search N8N Tool Icon" width="36"/>
 
 This is an n8n community node package providing tools for interacting with the [Brave Search API](https://api.search.brave.com/).
 

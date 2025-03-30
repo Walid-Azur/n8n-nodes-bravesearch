@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-bravesearch-advanced",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node package providing a LangChain tool for the Brave Search API.",
   "keywords": [
     "n8n-community-node-package",
@@ -15,7 +15,7 @@
   "author": {
     "name": "Acceleate Team",
     "email": "contact@acceleate.com"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Walid-Azur/n8n-nodes-bravesearch.git"
