@@ -1,10 +1,11 @@
 {
-  "name": "n8n-nodes-acceleate",
+  "name": "n8n-nodes-bravesearch",
   "version": "0.1.0",
-  "description": "n8n community node package for interacting with the Acceleate.com API and providing AI tools.",
+  "description": "n8n community node package providing a LangChain tool for the Brave Search API.",
   "keywords": [
     "n8n-community-node-package",
-    "acceleate",
+    "brave",
+    "search",
     "ai",
     "tool",
     "langchain"
@@ -17,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acceleate/n8n-nodes-acceleate.git"
+    "url": "git+https://github.com/Walid-Azur/n8n-nodes-bravesearch.git"
   },
   "bugs": {
-    "url": "https://github.com/acceleate/n8n-nodes-acceleate/issues"
+    "url": "https://github.com/Walid-Azur/n8n-nodes-bravesearch/issues"
   },
   "engines": {
     "node": ">=18.10"
@@ -43,7 +44,7 @@
       "dist/credentials/BraveSearchApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/BraveSearch/BraveSearch.node.js"
+      "dist/nodes/BraveSearch/ToolBraveSearch.node.js"
     ]
   },
   "devDependencies": {
